@@ -1,0 +1,15 @@
+HTML:
+
+<label for="image-input">
+  <img src="path/to/image.jpg" alt="Alt text">
+  <input type="file" id="image-input" name="image-input">
+</label>
+CSS:
+
+label {
+  display: block;
+}
+
+img {
+  vertical-align: middle;
+}
